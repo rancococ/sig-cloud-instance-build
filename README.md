@@ -27,3 +27,7 @@ As a part of the instance release process, the content used to build that instan
 * Provide some example kickstarts
 * Provide some example metadata json's
 * Import the virt-install wrapper bash script
+
+# Additional：
+
+* Add docker/centos-7-utf8-x86_64.ks, locale support en_US.UTF-8 and zh_CN.UTF-8.
