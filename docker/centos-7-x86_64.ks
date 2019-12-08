@@ -10,7 +10,7 @@
 # by using: cat centos-root.tar.xz | docker import -i imagename
 
 # Basic setup information
-url --url="http://mirrors.kernel.org/centos/7/os/x86_64/"
+url --url="http://mirrors.aliyun.com/centos/7/os/x86_64/"
 install
 keyboard us
 rootpw --lock --iscrypted locked
@@ -23,9 +23,9 @@ bootloader --disable
 lang en_US
 
 # Repositories to use
-repo --name="CentOS" --baseurl=http://mirror.centos.org/centos/7/os/x86_64/ --cost=100
+repo --name="CentOS" --baseurl=http://mirrors.aliyun.com/centos/7/os/x86_64/ --cost=100
 ## Uncomment for rolling builds
-repo --name="Updates" --baseurl=http://mirror.centos.org/centos/7/updates/x86_64/ --cost=100
+repo --name="Updates" --baseurl=http://mirrors.aliyun.com/centos/7/updates/x86_64/ --cost=100
 
 # Disk setup
 zerombr
